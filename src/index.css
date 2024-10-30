@@ -1,0 +1,45 @@
+/* ./src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply font-sans;
+    @apply bg-[#f7f4f2]
+}
+
+h1{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    color: #463767;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: #463767;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FE814B;
+}
+
+p{
+    font-weight: 400;
+    font-size: 16x;
+    line-height: 19px;
+    color: #463767;
+    opacity: 80%;
+}
+
+.v-chip {
+    @apply bg-[#EBD8E7] text-[#B86BB8] font-extrabold w-fit text-[10px];
+}
