@@ -10,11 +10,11 @@ export default defineConfig({
     vuetify({ autoImport: true }),
 
   ],
- build: {
+  build: {
     rollupOptions: {
       input: {
-        main: resolve(__dirname, 'public/index.html'),
-        // about: resolve(__dirname, 'public/about.html'),
+        main: resolve(__dirname, 'index.html'),
+        nationalGoverment: resolve(__dirname, '/national-goverment/index.html'),
         // contact: resolve(__dirname, 'public/contact.html'),
         // Add more pages as needed
       },
