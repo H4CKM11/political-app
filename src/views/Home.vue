@@ -24,7 +24,7 @@
 
         <h3 class="mt-8">Categories</h3>
         <div class="flex flex-col gap-3">
-            <a href="/national-goverment/">
+            <router-link to="/national-government">
                 <div class="flex gap-3 flex-col">
                     <Image_card src="/images/legislative_building.webp" />
                     <h2>National Goverment</h2>
@@ -35,7 +35,8 @@
                         Beginner Friendly
                     </v-chip>
                 </div>
-            </a>
+            </router-link>
+
             <div class="flex gap-3 flex-col">
                 <Image_card src="/images/state_picture.webp" />
                 <h2>State Goverment</h2>
